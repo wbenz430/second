@@ -1,1 +1,6 @@
-hi 45456a54w45w56w5w465w4e5654e
+echo "# second" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/wbenz430/second.git
+git push -u origin master
